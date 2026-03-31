@@ -1,0 +1,38 @@
+# Node modules (BIG no to push 🚫)
+node_modules/
+
+# Environment variables (secrets 🔐)
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Build / dist folders (if you add later)
+dist/
+build/
+
+# Package lock? (optional)
+# If you're working solo, you can ignore it
+# If team project → KEEP IT
+# package-lock.json
+
+# Coverage (testing)
+coverage/
+
+# Temporary files
+.tmp/
+.temp/
+
+# Cache
+.cache/
